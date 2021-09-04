@@ -7,6 +7,7 @@
 		
 		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="./animate.css" rel="stylesheet">
 		<link href="./materialize.min.css" rel="stylesheet">
 		<link href="./style.css" rel="stylesheet">
 		
@@ -17,18 +18,20 @@
 	<body>
 		<nav class="black" role="navigation">
 			<div class="nav-wrapper container">
-				<img id="logo-container" class="logo" style="width:500px;height:50px;position:absolute;left:0px;top:6px;" src="./logo.png">
+				<img id="logo-container" class="animated slideInLeft logo" style="width:500px;height:50px;position:absolute;left:0px;top:6px;" src="./logo.png">
 			
-				<ul class="right hide-on-med-and-down">
+				<ul class="animated fadeInDown right hide-on-med-and-down">
+					<li><a href="#showcase">showcase</a></li>
 					<li><a href="https://discord.gg/RUZTEYyPV4">discord</a></li>
-					<li><a href="/forums">forums</a></li>
+					<li><a href="/forum">forum</a></li>
 					<li><a href="https://www.elitepvpers.com/forum/rust-trading/4833042-catjpghook-undetected-psilent-esp-speedhack-noclip.html" target="_BLANK">elitepvpers</a></li>
 				</ul>
 				
 				<ul id="nav-mobile" class="sidenav">
-					<li><a href="https://discord.gg/RUZTEYyPV4">discord</a></li>
-					<li><a href="/forum">forum</a></li>
-					<li><a href="https://www.elitepvpers.com/forum/rust-trading/4833042-catjpghook-undetected-psilent-esp-speedhack-noclip.html" target="_BLANK">elitepvpers</a></li>
+					<li><a href="#showcase">Showcase</a></li>
+					<li><a href="https://discord.gg/RUZTEYyPV4">Discord server</a></li>
+					<li><a href="/forum">Forum</a></li>
+					<li><a href="https://www.elitepvpers.com/forum/rust-trading/4833042-catjpghook-undetected-psilent-esp-speedhack-noclip.html" target="_BLANK">ElitePvpers thread</a></li>
 				</ul>
 				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			</div>
@@ -38,9 +41,12 @@
 			<div class="section">
 				<div class="container">
 					<div style="padding-top:100px"></div>
-					<h1 class=" center">ricochet</h1>
-					<div class="row center">
-						<a href="/" class="btn-small black red-text">Get started</a>
+					
+					<div class="animated fadeInUp">
+						<h1 style="font-weight:bold">ricochet.gg</h1>
+						<h2 style="font-size:20px">made for rust</h2>
+						
+						<a href="#showcase" class="btn-large black red-text">interested?</a>
 					</div>
 				</div>
 			</div>
@@ -50,12 +56,149 @@
 			</div>
 		</div>
 		
-		<div class="container">
-			<div class="section">
-				<div class="icon-block">
-					<h2 class="center grey-text"><i class="material-icons">flash_on</i></h2>
+		<div style="padding-top:15px"></div>
+		<div class="container" id="showcase">
+			<div class="row">
+				<div class="col s12 m6">
+				  <div class="icon-block">					
+					<h2 class="center yellow-text"><i class="material-icons">grade</i></h2>
+					<h5 class="center">High quality programming standards</h5>
+					
+					<h2 class="center grey-text"><i class="material-icons">build</i></h2>
+					<h5 class="center">Customizable visual options</h5>
+					
+					<h2 class="center green-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Safe to use, undetected</h5>
+				  </div>
 				</div>
+		
+				<div class="col s12 m6">
+				  <div class="slider">
+					<ul class="slides">
+						<li>
+							<img src="./showcase/aimbot.gif">
+							<div class="caption center-align">
+							</div>
+						</li>
+						<li>
+							<img src="./showcase/menu.png">
+							<div class="caption left-align">
+							</div>
+						</li>
+						<li>
+							<img src="./showcase/one.jpg">
+							<div class="caption right-align">
+							</div>
+						</li>
+					</ul>
+				  </div>
+				  
+				  
+			  </div>
 			</div>
 		</div>
+		
+		<div class="container" id="purchase">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./showcase/guy_holding_gun_eating_chorizos.png">
+                  <span class="card-title">Rust: 1 month</span>
+                </div>
+                <div class="card-content">
+                  <h5 class="black-text">Price: N/A</h5>
+                </div>
+                <div class="card-action">
+                  <a href="https://discord.gg/986MFqCgAc">Order</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./showcase/guy_holding_gun_eating_chorizos.png">
+                  <span class="card-title">Rust: 3 months</span>
+                </div>
+                <div class="card-content">
+                  <h5 class="black-text">Price: N/A</h5>
+                </div>
+                <div class="card-action">
+                  <a href="https://discord.gg/986MFqCgAc">Order</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./showcase/guy_holding_gun_eating_chorizos.png">
+                  <span class="card-title">Rust: 1 year</span>
+                </div>
+                <div class="card-content">
+                  <h5 class="black-text">Price: N/A</h5>
+                </div>
+                <div class="card-action">
+                  <a href="https://discord.gg/986MFqCgAc">Order</a>
+                </div>
+              </div>
+            </div>
+			<ul class="collapsible">
+			<li>
+			  <div class="collapsible-header"><i style="color:orange" class="material-icons">whatshot</i>Features</div>
+			  <div class="collapsible-body">
+				<blockquote class="left-align">
+				  Aimbot: Smoothed aimbot for legit cheating and Psilent aimbot for rage cheating.
+				</blockquote>
+				<blockquote class="left-align">
+				  Players: Gain extra knowladge about enemy positions, hp, distance, and weapons.
+				</blockquote>
+				<blockquote class="left-align">
+				  Dropped items: See dropped weapons and items through walls.
+				</blockquote>
+				<blockquote class="left-align">
+				  Ores: Get the location of nearby ores in a clean node graph.
+				</blockquote>
+				<blockquote class="left-align">
+				  Radtown: See the location of crates, barrels and other nearby loot box items.
+				</blockquote>
+				<blockquote class="left-align">
+				  Collectables: Reveal the location of raw collectables such as hemp, wood, sulfar and stone.
+				</blockquote>
+				<blockquote class="left-align">
+				  Other ESP: Multiple other useful ESP options such as Raid ESP or Hotbar ESP.
+				</blockquote>
+				<blockquote class="left-align">
+				  No Recoil: Remove all weapon recoil and/or spread to better hit your targets.
+				</blockquote>
+				<blockquote class="left-align">
+				  Visibility: Set the time to day or night and make your game fully bright to help spot your enemies.
+				</blockquote>
+				<blockquote class="left-align">
+				  External Radar: See a radar showing all nearby enemies and their location in relationship to you.
+				</blockquote>
+				<blockquote class="left-align">
+				  Exploits: Exploits such as speedhack, flyhack, fakeduck, and many more.
+				</blockquote>
+				<blockquote class="left-align">
+				  Flyhack Bypass: Bypass flyhack violation kicks.
+				</blockquote>
+				<blockquote class="left-align">
+				  And more.. Purchase the cheat to experience all of the features.
+				</blockquote>
+			  </div>
+			</li>
+		  </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 	</body>
 </html>
